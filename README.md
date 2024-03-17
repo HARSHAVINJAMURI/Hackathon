@@ -7,7 +7,13 @@
 </h1>
 
 # [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) 
-mention the description here , mention what does your prototype does  , make sure that demo video also has narration made by the team members and shows the entire walkthrough of the project , images , working video and code are required
+Our prototype is a nutrition-focused website offering personalized diet planning, BMI calculation, and health issue-based food recommendations. It provides users with tailored recommendations based on their preferences and health status, enhancing their overall well-being.
+
+Prototype Functionality:
+- The prototype allows users to input their height, weight, and health preferences to receive personalized diet plans and BMI calculations. Additionally, it offers health issue-based food recommendations to address specific dietary needs, ensuring a comprehensive approach to nutrition management.
+
+Demo Video Highlights:
+- Our team's narrated demo video showcases the entire project walkthrough, including detailed explanations of functionality, interactive features, and user interface design. It includes images, working demonstrations, code snippets, and a comprehensive overview of the project's capabilities.
 ## Team Details
 `Team number` : VH039
 
@@ -30,16 +36,20 @@ mention the description here , mention what does your prototype does  , make sur
 </div>
 
 ## Problem statement 
-mention the problem , and mention the severity of the problem and why we need solution for that  , mention which gorup of people face that problem
+Develop a nutrition-focused website providing personalized diet recommendations and health-related services, including diet planning, BMI calculation, and health issue-based food recommendations. Ensure the website offers a user-friendly interface and delivers tailored recommendations based on user preferences and health status. People with good knowledge of using technology can use this product.
 ## About the project
-
-
+- Users can access detailed information about nutrition diet plans tailored to their needs. This includes explanations of various diet plans and recommendations for specific foods based on user-selected nutrition preferences.
+- A BMI calculator should be provided where users can input their height and weight to calculate their BMI value. The calculated BMI value should be displayed to the user.
+- Health Issue-based Food Recommendations service should provide users with recommendations for foods based on their health issues. Users can access information about common health issues related to food and receive personalized recommendations to address their specific health concerns.
+## Target Audience
+- Individuals seeking personalized nutrition guidance and diet planning.
+- Health-conscious individuals interested in monitoring their BMI and receiving health-related recommendations.
+- Users with specific health issues looking for dietary recommendations to improve their well-being.
 ## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
+-Develop a Flask web application (app.py) to handle routing and serve HTML templates.
+-Create HTML templates for the home page and each service (diet plan, BMI calculator, recommendation).
+-Implement backend logic for each service, including diet plan generation, BMI calculation, and health issue-based food recommendations.
+-Use JavaScript to enhance user interactivity, such as form validation and dynamic content loading.
 ![flowchart]
 ```
 Start
