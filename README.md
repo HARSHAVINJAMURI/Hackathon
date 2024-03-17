@@ -46,10 +46,10 @@ Develop a nutrition-focused website providing personalized diet recommendations 
 - Health-conscious individuals interested in monitoring their BMI and receiving health-related recommendations.
 - Users with specific health issues looking for dietary recommendations to improve their well-being.
 ## Technical implemntaion 
--Develop a Flask web application (app.py) to handle routing and serve HTML templates.
--Create HTML templates for the home page and each service (diet plan, BMI calculator, recommendation).
--Implement backend logic for each service, including diet plan generation, BMI calculation, and health issue-based food recommendations.
--Use JavaScript to enhance user interactivity, such as form validation and dynamic content loading.
+- Develop a Flask web application (app.py) to handle routing and serve HTML templates.
+- Create HTML templates for the home page and each service (diet plan, BMI calculator, recommendation).
+- Implement backend logic for each service, including diet plan generation, BMI calculation, and health issue-based food recommendations.
+- Use JavaScript to enhance user interactivity, such as form validation and dynamic content loading.
 ![flowchart]
 ```
 Start
@@ -104,8 +104,7 @@ Start
   ```
 
 ## Techstacks used 
-`html` , `css` , `ml` , `python` , `javascript`
-
+`html` , `css` , `ml` , `python` , `javascript`, `react js`
 ## How to run locally 
 detailed steps to run our project locally , example to run the application 
 - step 1 : Run python file 
@@ -120,9 +119,12 @@ Open that link and start interact with our website
 ```
 under services section we have diet plan section click on learn more, you will get the 
 ```
-
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
-
+- Enhance user experience by implementing a personalized user profile system, allowing users to track their progress and preferences over time.
+- Integrate machine learning algorithms to refine diet recommendations based on user feedback and health data analysis.
+- Expand the database of health issues and food recommendations to cover a wider range of dietary requirements and health concerns.
+- Collaborate with nutritionists and healthcare professionals to ensure the accuracy and effectiveness of our recommendations, ultimately promoting better health outcomes for users.
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
+## Note:
+we have used some bootstrap things to create website as we are new to frontend and we took images source from the google.
