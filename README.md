@@ -20,13 +20,13 @@ mention the description here , mention what does your prototype does  , make sur
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/1.png?raw=true" alt="Image 1" style="width: 30%; margin: 5px;"> 
-    <img src="https://drive.google.com/file/d/1ADujZgukZGOIJbkPM1QUD7Bw-TRkEDLI/view?usp=sharing" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/1xn57eu-aCCh18dZNut--gCV2DLPyknlw/view?usp=sharing" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/1_lb9Ym7qd9qSkDVT0qyjtHC-NJb_Q07y/view?usp=sharing" alt="Image 4" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/18dCXW1K_9M5MBeGPxgJQIt1nEn6XHhhG/view?usp=sharing" alt="Image 5" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/1KIlf-w5hPvDoh3G05kJcqHvl6CW4jMws/view?usp=sharing" alt="Image 6" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/16Vbjn_rbmiPPDvb_r9tQ8YCHpSDHDnKz/view?usp=sharing" alt="Image 7" style="width: 30%; margin: 5px;">
-    <img src="https://drive.google.com/file/d/1Ps8yCilHefLrlfuUX1Nm58loxtTOyDF6/view?usp=sharing" alt="Image 8" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/2.png?raw=true" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/3.png?raw=true" alt="Image 3" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/4.png?raw=true" alt="Image 4" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/5.png?raw=true" alt="Image 5" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/6.png?raw=true" alt="Image 6" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/7.png?raw=true" alt="Image 7" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/8.png?raw=true" alt="Image 8" style="width: 30%; margin: 5px;">
 </div>
 
 ## Problem statement 
