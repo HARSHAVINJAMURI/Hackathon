@@ -32,7 +32,7 @@ mention the description here , mention what does your prototype does  , make sur
 ## Problem statement 
 mention the problem , and mention the severity of the problem and why we need solution for that  , mention which gorup of people face that problem
 ## About the project
-mention few details and features of the project , how it is solving the problem 
+
 
 ## Technical implemntaion 
 mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
