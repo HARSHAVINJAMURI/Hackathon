@@ -19,7 +19,7 @@ mention the description here , mention what does your prototype does  , make sur
 | A.Krishna Vamsi | 99210042231@kli.ac.in |
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://drive.google.com/file/d/1iBvIW6rZl3botrnXVawSofv_SM69hDz6/view?usp=sharing" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/1.png?raw=true" alt="Image 1" style="width: 30%; margin: 5px;"> 
     <img src="https://drive.google.com/file/d/1ADujZgukZGOIJbkPM1QUD7Bw-TRkEDLI/view?usp=sharing" alt="Image 2" style="width: 30%; margin: 5px;">
     <img src="https://drive.google.com/file/d/1xn57eu-aCCh18dZNut--gCV2DLPyknlw/view?usp=sharing" alt="Image 3" style="width: 30%; margin: 5px;">
     <img src="https://drive.google.com/file/d/1_lb9Ym7qd9qSkDVT0qyjtHC-NJb_Q07y/view?usp=sharing" alt="Image 4" style="width: 30%; margin: 5px;">
