@@ -50,7 +50,8 @@ Develop a nutrition-focused website providing personalized diet recommendations 
 - Create HTML templates for the home page and each service (diet plan, BMI calculator, recommendation).
 - Implement backend logic for each service, including diet plan generation, BMI calculation, and health issue-based food recommendations.
 - Use JavaScript to enhance user interactivity, such as form validation and dynamic content loading.
-![flowchart]
+
+## flowchart
 ```
 Start
 |
@@ -127,4 +128,4 @@ under services section we have diet plan section click on learn more, you will g
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
 ## Note:
-we have used some bootstrap things to create website as we are new to frontend and we took images source from the google.
+we have used some bootstrap things to create website as we are new to frontend and we took images source from the google. Also the dataset is not accurate as we created  our own due to lack of bio techincal person in our team.
