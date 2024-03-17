@@ -39,6 +39,7 @@ mention the approach and how you have solved the problem with the technology , u
 - explain with images and flowcharts
 - 
 ![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+```
 Start
 |
 |__ app.py
@@ -88,6 +89,7 @@ Start
                 |               |__ Recommendation Based on User's Health Issue
                 |
                 |__ End
+  ```
 
 ## Techstacks used 
 `html` , `css` , `ml` , `python` , `javascript`
