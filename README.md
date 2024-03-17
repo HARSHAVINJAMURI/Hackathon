@@ -39,16 +39,72 @@ mention the approach and how you have solved the problem with the technology , u
 - explain with images and flowcharts
 - 
 ![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+Start
+|
+|__ app.py
+    |
+    |__ Run app.py
+        |
+        |__ Output: Link to Website Home Page
+        |
+        |__ User Clicks Link
+            |
+            |__ Home Page
+                |
+                |__ Services Section
+                |   |
+                |   |__ Service 1: Diet Plan
+                |   |   |
+                |   |   |__ Learn More Button Clicked
+                |   |       |
+                |   |       |__ Diet Plan Page
+                |   |           |
+                |   |           |__ Explanation of Nutrition Diet Plan
+                |   |           |
+                |   |           |__ Recommendation Section
+                |   |               |
+                |   |               |__ User Selects Nutrition
+                |   |                   |
+                |   |                   |__ Recommendation Based on Selected Nutrition
+                |   |
+                |   |__ Service 2: BMI Calculator
+                |   |   |
+                |   |   |__ Learn More Button Clicked
+                |   |       |
+                |   |       |__ BMI Calculator Page
+                |   |           |
+                |   |           |__ User Inputs Height and Weight
+                |   |               |
+                |   |               |__ BMI Value Displayed
+                |   |
+                |   |__ Service 3: Recommendation
+                |       |
+                |       |__ Learn More Button Clicked
+                |           |
+                |           |__ Health Issue Recommendation Page
+                |               |
+                |               |__ Health Issues of Food Displayed
+                |               |
+                |               |__ Recommendation Based on User's Health Issue
+                |
+                |__ End
 
 ## Techstacks used 
 `html` , `css` , `ml` , `python` , `javascript`
 
 ## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
+detailed steps to run our project locally , example to run the application 
+- step 1 : Run python file 
 ```
-npm install
-npm start
+You will able to get a website link in the output section
+```
+- step 2 : link navigation
+```
+Open that link and start interact with our website
+```
+- step 3 : diet plan section
+```
+under services section we have diet plan section click on learn more, you will get the 
 ```
 
 # What's next ?
