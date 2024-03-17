@@ -6,7 +6,7 @@
     ⭐️ Health is Wealth ⭐️ <br>
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](https://drive.google.com/file/d/1gCxxrM7mNl41wAqG606lfFXuG7jPMWAs/view?usp=sharing) 
+# [`Website link`](http://www.google.com)  [`Demo video link `](https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing) 
 Our prototype is a nutrition-focused website offering personalized diet planning, BMI calculation, and health issue-based food recommendations. It provides users with tailored recommendations based on their preferences and health status, enhancing their overall well-being.
 
 Prototype Functionality:
