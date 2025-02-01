@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>BMI Calculator</title>
+  <!-- <link rel="stylesheet" href="styles2.css"> -->
   <script src="https://kit.fontawesome.com/7e07a3bf71.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
@@ -38,8 +39,8 @@ span {
 :root {
   --overlay-blue: linear-gradient(
     315deg,
-    #1a7071 0%,
-    rgba(29, 32, 33, 0) 100%
+    #072149 0%,
+    rgba(41, 123, 127, 0) 100%
   );
   --overlay-opacity: linear-gradient(
     315deg,
@@ -123,7 +124,7 @@ span {
   left: 50%;
   background-color: #202429;
   color: #ffffff;
-  box-shadow: 16px 32px 56px 0px rgba(60, 117, 178, 0.25);
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
   width: 38rem;
   border-radius: 1rem;
 }
@@ -243,7 +244,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .calculated-answer {
   margin: 0rem 2rem;
   margin-bottom: 2rem;
-  background: linear-gradient(90deg, #324fb6 0%, #587dff 100%);
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
   color: var(--white);
   border-radius: 1rem 62.4375rem 62.4375rem 1rem;
   display: flex;
@@ -303,6 +304,20 @@ input[type="number"]::-webkit-outer-spin-button {
 .service-box i{
     font-size: 50px;
 }
+/* .service-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+} */
+
+.service-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
 .contact-details {
     margin-top: 30px;
     background: #343a40; 
@@ -525,7 +540,7 @@ footer {
   <!-- Menu Section -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/index"><span>&#10224;</span></a>
+      <a class="navbar-brand" href=""><span>&#10224;</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -624,75 +639,88 @@ footer {
   </div><br>
     <!--Services section-->
     <div id="services">
-      <h1>Limiatations of BMI</h1><br>
+      <h1>Limitations of BMI</h1><br>
       <div class="container mt-4">
           <div class="row">
               <div class="col-md-4">
                   <div class="service-box">
-                    <i class="fa-solid fa-mars-and-venus"></i><h5 class="card-title heading-s">Gender</h5>
-                    <p class="body-m">The development & body fat composition of girls & boys vary with age. therefore, 
-                    a child's age and gender are considered when evaluating their BMI.</p>
+                      <i class="fa-solid fa-mars-and-venus"></i><h5 class="card-title heading-s">Gender</h5>
+                      <p class="body-m">The development and body fat composition of girls and boys vary with age. Consequently, 
+                      a child's age and gender are considered when evaluating their BMI.</p>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="service-box">
-                    <i class="fa fa-birthday-cake" aria-hidden="true"></i><h5 class="card-title heading-s">Age</h5>
-                    <p class="body-m">In aging individuals, increased body fat and muscle loss may cause BMI to underestimate body fat content.</p>      
+                      <i class="fa fa-birthday-cake" aria-hidden="true"></i><h5 class="card-title heading-s">Age</h5>
+                      <p class="body-m">In aging individuals, increased body fat and muscle loss may cause BMI to underestimate body fat content.</p>      
                   </div>
               </div>
               <div class="col-md-4">
-                <div class="service-box">
-                  <h5 class="card-title heading-s"></h5>
-                  <p class="body-m"></p>      
-                </div>
-            </div>
+                  <!-- New column for the image -->
+                  <div class="service-box">
+                      <img src="https://play-lh.googleusercontent.com/zNj4zeDVBQcfHvf8388mXrXCzg2AVdLC5igtovhFqpY0Jqb-CCWinvhvQeZq1p_2yw=w240-h480-rw" alt="Image Description" style="max-width: 100%; height: auto;">
+                  </div>
+              </div>
           </div>
       </div>
       <br><br>
       <div class="container mt-4">
           <div class="row">
               <div class="col-md-4">
+                <!-- New column for the image -->
+                <div class="service-box">
+                    <img src="https://play-lh.googleusercontent.com/zNj4zeDVBQcfHvf8388mXrXCzg2AVdLC5igtovhFqpY0Jqb-CCWinvhvQeZq1p_2yw=w240-h480-rw" alt="Image Description" style="max-width: 100%; height: auto;">
+                </div>
+              </div>
+              <div class="col-md-4">
                   <div class="service-box">
-                    <h5 class="card-title heading-s"></h5>
-                    <p class="body-m"></p>      
+                      <i class="fa-solid fa-baby"></i><h5 class="card-title heading-s">Pregnancy</h5>
+                      <p class="body-m card-p2">Expectant mothers experience weight gain due to their growing baby. Maintaining a 
+                      healthy pre-pregnancy BMI is advisable to minimize health risks for both mother 
+                      and child.</p>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="service-box">
-                    <i class="fa-solid fa-baby"></i><h5 class="card-title heading-s">Pregnancy</h5>
-                    <p class="body-m card-p2">  Expectant mothers gain weight due to their growing baby. Maintaining
-                    healthy pre-pregnancy BMI is advisable to minimise health risks for both mother & child.</p>
+                      <i class="fa-solid fa-person"></i><h5 class="card-title heading-s">Race</h5>
+                      <p class="body-m">Blacks have lower body fat and higher lean muscle mass than whites at the same BMI, and therefore, at the same BMI, may be at lower risk of obesity-related diseases.</p>      
                   </div>
               </div>
               <div class="col-md-4">
-                  <div class="service-box">
-                    <i class="fa-solid fa-person"></i><h5 class="card-title heading-s">Race</h5>
-                    <p class="body-m">Blacks have lower body fat and higher lean muscle mass than whites at the same BMI, and therefore, at the same BMI, may be at lower risk of obesity-related diseases.</p>      
-                  </div>
+                  <!-- Another column for additional content or image -->
               </div>
           </div>
       </div>
-      <div id="contact">
-        <div class="contact-details" align="center">
-            <h3>CONTACT DETAILS</h3>
-            <p><b><u>Email</u>:</b> info@example.com</p>
-            <p><b><u>Phone</u>:</b> +1 123-456-7890</p>
-            <p><b><u>Address</u>:</b> 123 Nutrition Street, Cityville</p><br>
-        </div>
-    </div>
+  </div>
+  
+  <div id="contact">
+      <div class="contact-details" align="center">
+          <h3>CONTACT DETAILS</h3>
+          <p><b><u>Email</u>:</b> info@example.com</p>
+          <p><b><u>Phone</u>:</b> +1 123-456-7890</p>
+          <p><b><u>Address</u>:</b> 123 Nutrition Street, Cityville</p><br>
+      </div>
+  </div>
+  
 <footer class="mt-4">
     <div class="container text-center">
         <p>&copy; 2024 Your Company</p>
     </div>
 </footer>
 </div>
+<!-- <script type="module" src="styles2.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        // Get all anchor tags inside the navbar
         var links = document.querySelectorAll("#navbar .nav-link");
+
+        // Add click event listeners to all anchor tags
         links.forEach(function(link) {
             link.addEventListener("click", function() {
+                // Check if the navbar is collapsed
                 if (document.querySelector("#navbarNav").classList.contains("show")) {
+                    // Collapse the navbar
                     var navbarCollapse = new bootstrap.Collapse(document.querySelector("#navbarNav"));
                     navbarCollapse.toggle();
                 }
@@ -706,47 +734,63 @@ footer {
   let inputImperial = document.getElementById("inputImperial")
   let inputMetric = document.getElementById("inputMetric")
   let space = document.getElementById("space")
+
+  //metric values
   let cm = document.getElementById("cm")
   let kg = document.getElementById("kg")
+
+  //imperial values
   let ft = document.getElementById("ft")
   let inch = document.getElementById("in")
   let st = document.getElementById("st")
   let lbs = document.getElementById("lbs")
+
+  //results
   let welcome = document.getElementById("welcome")
   let calculatedAnswer = document.getElementById("result")
   let bmiScore = document.getElementById("bmi-score")
   let description = document.getElementById("bmi-desc")
   let healthy = document.getElementById("healthy")
   let range = document.getElementById("range")
+
   radioImperial.addEventListener("change", () => {
       if (radioImperial.checked) {
           inputImperial.classList.remove("hide")
           inputMetric.classList.add("hide")
           space.classList.add("space-imp-wel")
       }
+
       if (welcome.classList.contains("hide")){
           welcome.classList.remove("hide")
           calculatedAnswer.classList.add("hide")
       }
   })
+
   radioMetric.addEventListener("change", () => {
       if (radioMetric.checked){
           inputImperial.classList.add("hide")
           inputMetric.classList.remove("hide")
           space.classList.remove("space-imp-wel")
       }
+
       if (welcome.classList.contains("hide")){
           welcome.classList.remove("hide")
           calculatedAnswer.classList.add("hide")
       }
   })
+
+  //Calculate metric BMI and indicate weight class
+
   function calculateMetricBMI (heightMeters, weightKg) {
       if(isNaN(weightKg) || isNaN (heightMeters)){
           bmiScore.innerHTML = "NaN"
           description.innerHTML = "Please provide numerical values"
       }
+
       heightMeters = cm.value/100
       let bmi = weightKg / (heightMeters * heightMeters)
+
+      //weight class
       if (bmi > 24.9) {
           healthy.innerHTML = "overweight"
       }else if (bmi < 18.5){
@@ -754,20 +798,28 @@ footer {
       }else{
           healthy.innerHTML = "at a healthy weight"
       }
+
+      //weight range
       let weightLower = (18.5 * (heightMeters * heightMeters)).toFixed(1) + "kg"
       let weightHigher = (24.9 * (heightMeters * heightMeters)).toFixed(1) + "kg."
+
       range.innerHTML = weightLower + " - " + weightHigher
       return bmi
   }
+
+  //calculate imperial BMI and indicate weight class
+
   function calculateHeightConversion(heightFeet, heightInch) {
       let heightConvert = ((heightFeet * 30.48 + heightInch * 2.54)/100)
       heightConvert = (heightConvert * heightConvert)
       return heightConvert
   }
+
   function calculateWeightConversion(weightStone, weightPound) {
       let weightConvert = (weightStone * 6.35029 + weightPound * 0.45359237)
       return weightConvert
   }
+
   function weightClassRange() {
       let bmi2 = (calculateWeightConversion(st.value, lbs.value) / calculateHeightConversion(ft.value, inch.value)).toFixed(1)
 
@@ -778,15 +830,21 @@ footer {
       }else{
           healthy.innerHTML = "at a healthy weight"
       }
+
       let lowerWeight = (18.5 * calculateHeightConversion(ft.value, inch.value)) * 2.205
       let lowerWeightSt= Math.floor(lowerWeight * 0.0714) + "st"
       let lowerWeightPound = Math.floor(lowerWeight % 14) + "lbs"
+
       let upperWeight = (24.9 * calculateHeightConversion(ft.value, inch.value)) * 2.205
       let UpperWeightSt= Math.floor(upperWeight * 0.0714) + "st"
       let upperWeightPound = Math.floor(upperWeight % 14) + "lbs"
+
       range.innerHTML = lowerWeightSt + " " + lowerWeightPound  + " - " + UpperWeightSt + " " + upperWeightPound
+
       return bmi2
   }
+
+  //Display results
   function displayMetricResults() {
       if(cm.value !== "" || kg.value !== ""){
           welcome.classList.add("hide")
@@ -796,11 +854,14 @@ footer {
           bmiScore.innerHTML = 0
       }
   }
+
+
   function displayImperialResults() {
           welcome.classList.add("hide")
           calculatedAnswer.classList.remove("hide")
           space.classList.add("space-imp-sp")
           bmiScore.innerHTML = weightClassRange()
+
   }
   cm.addEventListener("input", displayMetricResults)
   kg.addEventListener("input", displayMetricResults)

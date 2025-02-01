@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition Diet</title>
+    <!-- <link rel="stylesheet" href="styles1.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
@@ -74,11 +75,13 @@
     }
     .recommendation{
     padding-bottom: 80px;
+
     }
     .recommendation h2{
         padding-bottom: 30px !important;
         padding-top: 10px;
         font-size: 40px;
+
     }
     form
     {
@@ -93,8 +96,8 @@
         margin-top: 50px;
     }
     label {
-        display: inline-block;
-        width: 170px;
+        display: inline-block; /* Change display to inline-block */
+        width: 170px; /* Add fixed width to the labels */
         margin-bottom: 8px;
         color: black;
     }
@@ -104,7 +107,7 @@
         padding: 10px;
         margin-bottom: 15px;
         box-sizing: border-box;
-        border: 2px solid #102f1d;
+        border: 2px solid #175b1d;
         border-radius: 5px;
         font-size: 16px;
     }
@@ -154,7 +157,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index"><span>&#10224;</span></a>
+            <a class="navbar-brand" href=""><span>&#10224;</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -184,7 +187,7 @@
                     <p>Eating nutritious food is like giving your body the right tools to stay strong and healthy. Just like a car needs good fuel to run smoothly, our bodies need good food to work well.</p>
                     <p>Nutritious Foods are packed with the good stuff our bodies need to grow, be active, and fight off sickness. They include fruits, vegetables, whole grains, lean proteins like chicken or beans, and healthy fats like those found in nuts and avocados.</p>
                     <p>Nutritious Diet is all about having a balanced mix of these nutritious foods every day. It's like having a colorful plate where you fill it up with lots of different fruits and veggies, some grains for energy, a bit of protein to keep you strong, and a little healthy fat for your brain and skin.</p>
-                    <a href="#recommendation" class="btn btn-primary">Get Recommended</a>
+                    <a href="index3.html" class="btn btn-primary">Get Recommended</a>
                 </div>
                 <div class="col-md-6" id="hom">
                     <img src="https://www.chp.gov.hk/files/jpg/adult_eng.jpg" alt="food" class="img-fluid">
@@ -206,7 +209,7 @@
                 </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
           <div class="col">
@@ -222,7 +225,7 @@
                   </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
           <div class="col">
@@ -238,7 +241,7 @@
                 </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
           <div class="col">
@@ -254,7 +257,7 @@
                 </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
           <div class="col">
@@ -270,7 +273,7 @@
                 </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
           <div class="col">
@@ -286,11 +289,19 @@
                 </ul>
                 </p>
               </div>
-              <a href="#recommendation">learn more</a>
+              <a href="/index3">learn more</a>
             </div>
           </div>
         </div>
       </div>
+   <!-- Contact Section ----------------->
+   <!-- <div id="contact">
+    <div class="contact-details" align="center">
+        <h3>CONTACT DETAILS</h3>
+        <p><b><u>Email</u>:</b> info@example.com</p>
+        <p><b><u>Phone</u>:</b> +1 123-456-7890</p>
+        <p><b><u>Address</u>:</b> 123 Nutrition Street, Cityville</p><br>
+    </div> -->
 </div>
 <div class="recommendation">
   <div id="recommendation">
@@ -330,7 +341,7 @@
                   <option value="vitamins">Vitamins</option>
                   <option value="minerals">Minerals</option>
                   <option value="amino_acids">Amino Acids</option>
-                  <option value="fats">Fats</option>
+                  <!-- <option value="fats">Fats</option> -->
               </select>
               <label for="detail"><b>Detail:</b></label>
               <select name="detail" id="detail" required>
@@ -341,7 +352,9 @@
       </form>
   </div>
 </div>
+
 </main>
+<!-- Footer Section -->
 <footer class="mt-4">
     <div>
         <p>&copy; 2024 DIET RECOMMENDATION</p>
@@ -350,10 +363,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        // Get all anchor tags inside the navbar
         var links = document.querySelectorAll("#navbar .nav-link");
+
+        // Add click event listeners to all anchor tags
         links.forEach(function(link) {
             link.addEventListener("click", function() {
+                // Check if the navbar is collapsed
                 if (document.querySelector("#navbarNav").classList.contains("show")) {
+                    // Collapse the navbar
                     var navbarCollapse = new bootstrap.Collapse(document.querySelector("#navbarNav"));
                     navbarCollapse.toggle();
                 }
@@ -364,9 +382,11 @@
 <script>
       function updateDetailOptions(selectElement) {
           var detailSelect = document.getElementById("detail");
-          detailSelect.innerHTML = "";
+          detailSelect.innerHTML = ""; // Clear existing options
+          
           var selectedOption = selectElement.value;
           var options = [];
+          
           switch(selectedOption) {
               case "vitamins":
                   options = [
@@ -402,35 +422,37 @@
                       "Selenium",
                       "Iodine",
                       "Fluoride",
-                      "Chromium",
-                      "Molybdenum"
+                      "Chromium"/*,
+                      "Molybdenum"*/
                   ];
                   break;
               case "amino_acids":
                   options = [
                       "select one",
-                      "Phenylalanine",
-                      "Valine",
-                      "Threonine",
+                      // "Phenylalanine",
+                      // "Valine",
+                      // "Threonine",
                       "Tryptophan",
                       "Isoleucine",
                       "Methionine",
                       "Leucine",
                       "Lysine",
-                      "Histidine",
-                      "Arginine (Semi-essential)"
+                      "Histidine"/*,
+                      "Arginine (Semi-essential)"*/
                   ];
                   break;
-              case "fats":
-                  options = [
-                      "select one",
-                      "Omega-3 Fatty Acids",
-                      "Omega-6 Fatty Acids"
-                  ];
-                  break;
+              // case "fats":
+              //     options = [
+              //         "select one",
+              //         "Omega-3 Fatty Acids",
+              //         "Omega-6 Fatty Acids"
+              //     ];
+              //     break;
               default:
                   options = ["Select nutrition required first"];
           }
+          
+          // Add options to the detail select element
           options.forEach(function(option) {
               var opt = document.createElement("option");
               opt.textContent = option;
