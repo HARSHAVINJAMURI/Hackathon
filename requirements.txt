@@ -1,2 +1,2 @@
 pkgutil
-numpy==1.24.3
+numpy
